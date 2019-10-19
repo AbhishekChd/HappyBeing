@@ -1,6 +1,7 @@
-package io.github.abhishek.happybeing;
+package io.github.abhishek.happybeing.ui.main;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,6 +12,10 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.hsalf.smilerating.SmileRating;
+
+import io.github.abhishek.happybeing.R;
+import io.github.abhishek.happybeing.ui.question.QuestionActivity;
+import io.github.abhishek.happybeing.ui.test.TestIssuesActivity;
 
 public class MainActivity extends AppCompatActivity {
 
