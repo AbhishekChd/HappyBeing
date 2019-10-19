@@ -1,4 +1,4 @@
-package io.github.abhishek.happybeing;
+package io.github.abhishek.happybeing.ui.question;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -6,9 +6,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Bundle;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
+import io.github.abhishek.happybeing.R;
 import io.github.abhishek.happybeing.databinding.ActivityQuestionBinding;
 
 public class QuestionActivity extends AppCompatActivity {
@@ -17,8 +17,8 @@ public class QuestionActivity extends AppCompatActivity {
     private QuestionAdapter adapter;
 
     private String[] data = {
-            "Hey there!",
-            "Hey nigga!"
+            "What is depression?",
+            "How does depression affect my mind?"
     };
 
     @Override
@@ -28,11 +28,11 @@ public class QuestionActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this,
                 R.layout.activity_question);
 
-        adapter = new QuestionAdapter(Arrays.asList(data));
         init();
     }
 
     private void init() {
+        adapter = new QuestionAdapter(Arrays.asList(data));
         binding.listRcl.setLayoutManager(new LinearLayoutManager(this));
         binding.listRcl.setAdapter(adapter);
     }
