@@ -1,4 +1,4 @@
-package io.github.abhishek.happybeing.ui.question;
+package io.github.abhishek.happybeing.ui.test;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,20 +9,21 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+
 import io.github.abhishek.happybeing.R;
 
-public class QuestionAdapter extends RecyclerView.Adapter<QuestionAdapter.CViewHolder> {
+public class TestIssuesAdapter extends RecyclerView.Adapter<TestIssuesAdapter.CViewHolder> {
     private List<String> listItems;
 
-    QuestionAdapter(List<String> listItems){
+    TestIssuesAdapter(List<String> listItems){
         this.listItems = listItems;
     }
 
     @NonNull
     @Override
-    public QuestionAdapter.CViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+    public TestIssuesAdapter.CViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.question_item, viewGroup, false);
+                .inflate(R.layout.test_issues_item, viewGroup, false);
         return new CViewHolder(view);
     }
 

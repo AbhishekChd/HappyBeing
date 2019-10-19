@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import io.github.abhishek.happybeing.R;
 import io.github.abhishek.happybeing.ui.question.QuestionActivity;
+import io.github.abhishek.happybeing.ui.test.TestIssuesActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startActivity(new Intent(this, QuestionActivity.class));
+        startActivity(new Intent(this, TestIssuesActivity.class));
     }
 }
