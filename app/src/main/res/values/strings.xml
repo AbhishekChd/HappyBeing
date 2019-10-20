@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Happy Being</string>
+    <string name="app_name">Take Care</string>
     <string name="dialog_title">What did you feel today?</string>
     <string name="ok_label">Accept</string>
     <string name="dismiss_label">Cancel</string>
