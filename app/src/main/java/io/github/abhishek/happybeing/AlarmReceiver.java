@@ -4,16 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-/**
- * Created by Vasileios Makris 17202178 on 07-Nov-17.
- * This class handles the Broadcast. This receiver is invoked at the scheduled user selected time.
- * Based on:
- * https://github.com/jaisonfdo/RemindMe/blob/master/app/src/main/java/com/droidmentor/remindme/AlarmReceiver.java
- */
-
 public class AlarmReceiver extends BroadcastReceiver {
-
-
 
     @Override
     public void onReceive(Context context, Intent intent) {

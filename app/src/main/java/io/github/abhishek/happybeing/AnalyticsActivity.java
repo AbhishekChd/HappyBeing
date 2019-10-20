@@ -1,6 +1,5 @@
 package io.github.abhishek.happybeing;
 
-
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -15,18 +14,6 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
-
-
-/**
- * Created by Siopis Christos on 2017/11/16.
- */
-
-//PieChartActivity retrieves data from the database.
-//Specifically implements the user's feelings, displaying them in a
-//Pie Graph, where each feeling has its own color
-
-//All rights of this library belong to Philipp Jahoda
-//Licensed under the Apache License, Version 2.0 (the "License")
 
 public class AnalyticsActivity extends AppCompatActivity {
     private MyDatabaseHelper dbHelper;

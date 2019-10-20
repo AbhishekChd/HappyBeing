@@ -18,15 +18,6 @@ import java.util.Calendar;
 
 import static android.content.Context.ALARM_SERVICE;
 
-/**
- * Created by Vasileios Makris 17202178 on 07-Nov-17.
- *
- * This class schedules and builds the notification.
- *
- *Based on
- * https://github.com/jaisonfdo/RemindMe/blob/master/app/src/main/java/com/droidmentor/remindme/NotificationScheduler.java
- */
-
 public class NotificationScheduler {
     public static final int DAILY_REMINDER_REQUEST_CODE=100;
 

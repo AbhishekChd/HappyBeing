@@ -21,16 +21,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by Vasileios Makris 17202178 on 07-Nov-17.
- * <p>
- * This activity is largely based on this online source
- * https://github.com/jaisonfdo/RemindMe/blob/master/app/src/main/java/com/droidmentor/remindme/MainActivity.java
- * <p>
- * While searching as to how make the notifications appear daily even if the app was killed I ended up finding this guide: http://droidmentor.com/schedule-notifications-using-alarmmanager/
- * which ended up containing exactly what I had envisioned for the Settings activity so I mainly followed it
- */
-
 public class SettingsActivity extends AppCompatActivity {
     private MyDatabaseHelper dbHelper;
     NotificationData notificationData;

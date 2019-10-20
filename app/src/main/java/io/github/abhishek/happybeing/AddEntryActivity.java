@@ -35,11 +35,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by Chen on 2017/10/29.
- * This activity is for creating the entry and save it.
- */
-
 public class AddEntryActivity extends AppCompatActivity {
     ImageView emojiup;//record the chosed emoji view
     private static final int PHOTO_GRAPH = 1;// request code of taking picture

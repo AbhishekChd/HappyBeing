@@ -17,14 +17,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Siopis Christos on 2017/10/29.
- */
-
-//DiaryActivity retrieves data from the database
-//and displays these data in the form of a clickable ListView,
-//putting the most recent entry to the top of the list
-
 public class DiaryActivity extends AppCompatActivity {
 
     public ListView listView;

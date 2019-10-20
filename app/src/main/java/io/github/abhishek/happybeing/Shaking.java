@@ -1,6 +1,5 @@
 package io.github.abhishek.happybeing;
 
-
 import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -13,11 +12,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-/**
- * Created by Chen on 2017/11/20.
- * this activity is for using ACCELEROMETER SENSOR and return the score to daily entry
- */
 
 public class Shaking extends AppCompatActivity {
     TextView st = null;

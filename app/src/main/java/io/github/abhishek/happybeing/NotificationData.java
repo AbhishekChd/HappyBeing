@@ -3,15 +3,6 @@ package io.github.abhishek.happybeing;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by Vasileios Makris 17202178 on 07-Nov-17.
- *
- * This class stores/reads the user selected notification time using the SharedPreferences API
- *
- * The guide that I used to build the notification feature has a similar class
- *https://github.com/jaisonfdo/RemindMe/blob/master/app/src/main/java/com/droidmentor/remindme/LocalData.java
- */
-
 public class NotificationData {
 
     private static final String APP_SHARED_PREFS="NotificationPreference";

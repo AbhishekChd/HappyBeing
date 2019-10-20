@@ -11,11 +11,6 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Filippo 17202832
- * and Chen
- */
-
 public class MyDatabaseHelper extends SQLiteOpenHelper implements BaseColumns {
     public static final int DATABASE_VERSION = 1;
 

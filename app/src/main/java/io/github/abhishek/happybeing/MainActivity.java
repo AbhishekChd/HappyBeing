@@ -1,6 +1,3 @@
-/**
- * Created by Saqif Badruddin: 17200777
- * */
 
 package io.github.abhishek.happybeing;
 

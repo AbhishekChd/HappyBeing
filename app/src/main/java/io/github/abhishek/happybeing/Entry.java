@@ -1,9 +1,5 @@
 package io.github.abhishek.happybeing;
 
-/**
- * Created by Filippo 17202832
- */
-
 public class Entry {
 
     // internal variable of the entry
